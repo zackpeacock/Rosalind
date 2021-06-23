@@ -1,3 +1,8 @@
+# Given: A DNA string of length at most 1000 bp.
+
+# Return: The reverse complement of the DNA string.
+
+
 DNAsequence = open('rosalind_revc.txt', 'r')
 
 # Create dictionary of complementary base pairs
