@@ -1,3 +1,8 @@
+# Given: A collection of DNA strings in FASTA format having total length at most 10 kbp.
+
+# Return: The adjacency list corresponding to O3. You may return edges in any order.
+
+
 # Remove newlines from FASTA file
 def formatFASTA(filename):
     file = open(filename, 'r')
