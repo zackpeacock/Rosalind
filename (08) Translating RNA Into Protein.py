@@ -1,3 +1,8 @@
+# Given: An RNA string corresponding to a strand of mRNA (of length at most 10 kbp).
+
+# Return: The encoded protein string.
+
+
 file = open('rosalind_prot.txt', 'r')
 RNAsequence = file.read()
 
