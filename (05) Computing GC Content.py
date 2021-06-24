@@ -1,3 +1,8 @@
+# Given: At most 10 DNA strings in FASTA format (of length at most 1 kbp each).
+
+# Return: The ID of the string having the highest GC-content, followed by the GC-content of that string.
+
+
 # Remove newlines from FASTA file
 def formatFASTA(filename):
     file = open(filename, 'r')
