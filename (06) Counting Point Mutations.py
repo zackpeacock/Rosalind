@@ -1,3 +1,8 @@
+# Given: Two DNA strings of equal length (not exceeding 1 kbp).
+
+# Return: The Hamming distance between the two strings.
+
+
 file = open('rosalind_hamm.txt', 'r')
 
 # Assign sequences to be compared to variables and initialize mutation counter
