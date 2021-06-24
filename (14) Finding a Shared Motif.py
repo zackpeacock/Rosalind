@@ -1,3 +1,8 @@
+# Given: A collection of k (k ≤ 100) DNA strings of length at most 1 kbp each in FASTA format.
+
+# Return: A longest common substring of the collection.
+
+
 # Create dictionary of sequence labels with sequences
 file = open('rosalind_lcsm.txt', 'r')
 sequencesDict = {}
