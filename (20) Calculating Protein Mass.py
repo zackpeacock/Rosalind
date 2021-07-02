@@ -1,3 +1,8 @@
+# Given: A protein string of length at most 1000 aa.
+
+# Return: The total weight of the protein string. Consult the monoisotopic mass table.
+
+
 file = open('rosalind_prtm.txt', 'r')
 protein_sequence = file.read().strip()
 
