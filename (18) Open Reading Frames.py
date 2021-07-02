@@ -1,3 +1,8 @@
+# Given: A DNA string of length at most 1 kbp in FASTA format.
+
+# Return: Every distinct candidate protein string that can be translated from open reading frames of the DNA string. Strings can be returned in any order.
+
+
 # Isolate DNA sequence from FASTA file
 def formatFASTA(filename):
     file = open(filename, 'r')
