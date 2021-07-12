@@ -2,6 +2,7 @@
 
 # Return: The position and length of every reverse palindrome in the string having length between 4 and 12. You may return these pairs in any order.
 
+
 # Function to isolate DNA sequence from FASTA file
 def IsolateSequence(filename):
     file = open(filename, 'r')
