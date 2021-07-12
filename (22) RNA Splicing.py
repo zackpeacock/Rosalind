@@ -1,3 +1,8 @@
+# Given: A DNA string s (of length at most 1 kbp) and a collection of substrings of s acting as introns. All strings are given in FASTA format.
+
+# Return: A protein string resulting from transcribing and translating the exons of s. 
+
+
 # Function to create dictionary of DNA sequence and introns with accompanying FASTA IDs
 def FormatFASTA(filename):
     file = open(filename, 'r')
