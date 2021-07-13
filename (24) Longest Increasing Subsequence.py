@@ -1,3 +1,8 @@
+# Given: A positive integer n ≤ 10000 followed by a permutation π of length n.
+
+# Return: A longest increasing subsequence of π, followed by a longest decreasing subsequence of π.
+
+
 # Format permutation into list
 file = open('rosalind_lgis.txt', 'r')
 raw_permutation = file.read().strip().split(' ')
